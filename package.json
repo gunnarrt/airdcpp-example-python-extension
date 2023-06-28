@@ -1,10 +1,10 @@
 {
-  "name": "airdcpp-example-python-extension",
+  "name": "airdcpp-popularmovies",
   "version": "0.0.2",
-  "description": "Example Python 3.x extension for AirDC++",
+  "description": "Search StevenLu PopularMovies ",
   "license": "MIT",
   "private": true,
-  "author": "maksis",
+  "author": "gunnarrt",
   "engines": {
     "python3": ">=3.5.0"
   },
@@ -14,10 +14,10 @@
     "airdcpp-extensions-test",
     "python"
   ],
-  "bugs": "https://github.com/airdcpp-web/airdcpp-example-python-extension/issues/",
+  "bugs": "https://github.com/gunnarrt/airdcpp-example-python-extension/issues/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/airdcpp-web/airdcpp-example-python-extension/"
+    "url": "https://github.com/gunnarrt/airdcpp-example-python-extension/"
   },
   "main": "extension.py",
   "airdcpp": {
