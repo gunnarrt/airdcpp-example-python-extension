@@ -1,4 +1,4 @@
-# airdcpp-example-python-extension
+# airdcpp-popularmovies
 
 Example extension for [AirDC++ Web Client](https://airdcpp-web.github.io) written in Python 3.x. The extension will spam a message to event log once per minute. No external dependencies are required.
 
