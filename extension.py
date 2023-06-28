@@ -25,11 +25,11 @@ args = parser.parse_args()
 
 # Initialize API request
 message = {
-	'text': 'Test message sent by extension {}'.format(args.name),
+	'text': '2023 {}'.format(args.name),
 	'severity': 'info'
 }
 
-postRequest = urllib.request.Request('http://' + args.apiUrl + 'events')
+postRequest = urllib.request.Request('http://' + args.apiUrl + 'search')
 postRequest.add_header('Authorization', args.authToken)
 postRequest.add_header('Content-Type', 'application/json')
 
